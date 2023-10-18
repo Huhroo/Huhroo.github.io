@@ -1,0 +1,149 @@
+* {
+    color:rgb(10, 119, 0);
+    background-color:rgb(33, 34, 34);
+    font-family:  sans-serif;
+    font-size:28px ;
+}
+/* Basic styles for the navigation bar */
+nav {
+    
+   
+    border: 8px solid #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+/* Highlight the current page in the navigation bar */
+nav a.current {
+    font-weight: bold;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: rgb(33, 34, 34);
+    min-width: 200px;
+    
+    z-index: 2;
+ 
+}
+
+.dropdown-content a {
+    
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.left-box{
+    width: 450px;
+    height: 500px;
+    border:8px solid #000000;
+}
+
+.left-box p {
+    
+    margin-bottom: -20px; /* Adjust the value as needed */
+
+}
+
+button#clickButton {
+    margin-top: 40px ;
+    width: 350px; 
+    height: 350px;
+    background-image: url('troll.png'); 
+    background-size:contain; 
+    border: none;
+    cursor: pointer;
+
+    transition: transform 0.2s ease; /* Smooth scale transition over 0.2 seconds */
+}
+
+/* Add a CSS class for the button animation when clicked */
+button#clickButton.clicked {
+    transform: scale(1.1); /* Scale the button by 10% */
+}
+
+#coinCount {
+    flex-grow: 4;
+    font-size: 48px;
+    margin-top: 100px;
+    border-top: 8px solid #000000;
+    border-left: 8px solid #000000;
+    border-right: 8px solid #000000;
+      
+}
+
+#coinspersecond {
+   
+    border-bottom: 8px solid #000000;
+    border-left: 8px solid #000000;
+    border-right: 8px solid #000000;
+}
+
+.menuhidden{
+  display: none;
+}
+
+#toolSection{
+    border-top: 8px solid #000000;
+    border-bottom: 8px solid #000000;
+    border-left: 8px solid #000000;
+    border-right: 8px solid #000000;
+}
+
+#clubSection{
+    border-top:8px solid #000000;
+    border-bottom:8px solid #000000;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 16px;  
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 8px solid #000000;
+    width: fit-content;
+    height: fit-content;
+}
+
+.tool.info {
+    
+    width: 33%;
+    border-collapse: collapse; 
+  }
+  
+  .tool.info th,
+  .tool.info td {
+    border: 6px solid #000000; 
+    padding: 8px;
+    text-align: left;
+  }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="titleText" >Troll clicker</title>
+
+</head>
+<link id="stylesheet2" rel="stylesheet" href="stylesheet2.css">
+<link id="stylesheet1" rel="stylesheet" href="stylesheet1.css">
+
+<body>
+
+    <header> <h1 id="headerTitle">Troll Clicker</h1> </header>
+    
+    <nav>
+        <ul>
+            
+            <li class="dropdown">
+                <button class="dropbtn">Settings</button>
+                <div class="dropdown-content">
+                    <button id="darkmodebutton">Dark mode</button>
+                    <button id="lighmodebutton">Light mode</button>
+                    <form id="nameForm">
+                        <label for="trollName">Rename your troll!:</label>
+                        <input type="text" id="trollName" name="trollName" required>
+                        <button type="submit">Submit</button>
+                    </form> 
+            <li><a href="#">Home</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Troll" target="_blank">Learn about trolls</a></li>
+            <a id="gmtTime">time fetched</a>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="container1">
+            <div class="left-box">
+                <p id="trollText">Click on the troll</p>
+                <p>To collect toll coins!</p>
+                <button id="clickButton"></button>
+            </div>
+        <div class="center-box">
+            <div id="coinCount">0 coins</div>
+            <div id="coinspersecond">0 coins/s</div>
+        </div>
+
+        <div class="right-box">    
+            <div id="toolSection">
+                <h2 title="Tools help you by passively generating more coins">Tools</h2>
+                    <div id="clubSection">
+                        <p>Club costs <span class="cost" id="clubCost">10</span> coins.</p>
+                        <button class="buy-button" id="buyclub">Buy club</button>
+                        <button class="buy-multiple-button" id="buy10clubs">Buy 10 </button>
+                        <p>You have lvl <span class="count" id="clubCount">0</span> club.</p>
+                    </div>
+                    <div id="bridgeSection">
+                        <p>Bridge costs <span class="cost" id="bridgeCost">100</span> coins.</p>
+                        <button class="buy-button" id="buybridge">Buy bridge</button>
+                        <button class="buy-multiple-button" id="buy10bridges">Buy 10 </button>
+                        <p>You have lvl <span class="count" id="bridgeCount">0</span> bridge.</p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div  class="contaner2 ">   
+            
+            <table  class="tool info" >
+                <thead>
+                    <h2 title="Automatically updates every second">  Tool info </h2>
+                    <tr>
+                        <th title="The name of the tool,duh">Name</th>
+                        <th title="The amount of coins this tool you have">Count</th>
+                        <th title="The amount of coins this tool generates per second">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="clubRow">
+                        <th id="clubTName">club</th>
+                        <th id="clubTCount">0</th>
+                        <th id="clubTValue">0</th>
+                    </tr>
+                    <tr id="bridgeRow">
+                        <th id="bridgeTName">bridge</th>
+                        <th id="bridgeTCount">0</th>
+                        <th id="bridgeTValue">0</th>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="upgrades" class="menuhidden" >
+                <h2 title="Upgrades help you by giving you and your tools bonuses">Special Upgrades</h2>
+                <div class="upgrade" id="upgrade1">
+                    <button title="Cost: 100 coins
+Description: Increases your click power by 2x." class="upgrade1-button">U1</button>
+                </div>
+                <div class="upgrade" id="upgrade2">
+                    <button title="Cost: 100 coins
+Description: Increases your club power by 2x." class="upgrade2-button">U2</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="Javascriptosa.js"></script>
+</body>
+</html>
