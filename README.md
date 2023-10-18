@@ -57,14 +57,14 @@ CSS (25%)
 1/5:
 Basic CSS styling (colors, fonts).
 
-Kyllä
+Ihan perus värien vaihtelu ja fontien asettelu näkyy heti kun katsoo jompaa kumpaa stylesheettiä
 
 1pt
 
 2/5:
 Use of classes and IDs to style specific elements.
 
-kyllä 
+kyllä, esim clickbuttonia tuunataan ID mukaan
 
 1pt
 
