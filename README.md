@@ -146,7 +146,8 @@ tämä kai on siinä ja siinä.
  
  Ehtolausekkeita käytin monessa paikkaa esim updatecoinCount() if looppaa rahan läpi ja käsittelee sitä eri tavoin jos rahan määrä on tarpeeksi suurta
 
- itse sanoisin että juu 1pt
+itse sanoisin että juu 1pt
+
 5/5:
 Consistent use of Object-Oriented JavaScript principles.
 
