@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- basic html setup -->
 <html lang="en">
 <head >
  <meta charset="UTF-8">
@@ -6,6 +6,7 @@
 <title id="titleText" >Troll clicker</title>
 
 </head>
+<!-- Stylesheet referenced here, style 1 is beneath 2 becouse I wanted it to load last -->
 <link id="stylesheet2" rel="stylesheet" href="stylesheet2.css">
 <link id="stylesheet1" rel="stylesheet" href="stylesheet1.css">
 
@@ -13,38 +14,37 @@
 
     <header> <h1 id="headerTitle">Troll Clicker</h1> </header>
     
-    <nav>
+    <nav> <!-- i used navbar to have a place for settings and some extras for schoolwork grading -->
         <ul>
             
             <li class="dropdown">
                 <button class="dropbtn">Settings</button>
                 <div class="dropdown-content">
-                    <button id="darkmodebutton">Dark mode</button>
+                    <button id="darkmodebutton">Dark mode</button> <!-- Setting contain two buttons that switch stylesheets and form and submit functionality to change your troll's name -->
                     <button id="lighmodebutton">Light mode</button>
-                    <form id="nameForm">
+                    <form id="nameForm"> <!-- here is the form for grading purposes -->
                         <label for="trollName">Rename your troll!:</label>
                         <input type="text" id="trollName" name="trollName" required>
                         <button type="submit">Submit</button>
                     </form> 
-            <li><a href="#">Home</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Troll" target="_blank">Learn about trolls</a></li>
-            <a id="gmtTime">time fetched</a>
+            <li><a href="https://en.wikipedia.org/wiki/Troll" target="_blank">Learn about trolls</a></li> <!-- Here i used a link for grading purposes -->
+            <a id="gmtTime">time fetched</a>  <!-- here is where my API call is set, for grading purposes -->
         </ul>
     </nav>
 
-    <section>
-        <div class="container1">
-            <div class="left-box">
+    <section> <!-- Section used for grading purposes -->
+        <div class="container1">  <!-- first container -->
+            <div class="left-box"> <!-- left box contains THE button you can click to gain more coins -->
                 <p id="trollText">Click on the troll</p>
                 <p>To collect toll coins!</p>
                 <button id="clickButton"></button>
             </div>
-        <div class="center-box">
+        <div class="center-box"> <!-- center box is the place where coin information is expressed -->
             <div id="coinCount">0 coins</div>
             <div id="coinspersecond">0 coins/s</div>
         </div>
 
-        <div class="right-box">    
+        <div class="right-box">   <!--right box is the place for tools, that help the player to generate more coins passively--> 
             <div id="toolSection">
                 <h2 title="Tools help you by passively generating more coins">Tools</h2>
                     <div id="clubSection">
@@ -64,10 +64,10 @@
         </div>
     </section>
     
-    <section>
-        <div  class="contaner2 ">   
+    <section> <!-- Another section -->
+        <div  class="contaner2 ">   <!-- second container -->
             
-            <table  class="tool info" >
+            <table  class="tool info" > <!-- my table that contain the relevant tool information -->
                 <thead>
                     <h2 title="Automatically updates every second">  Tool info </h2>
                     <tr>
@@ -89,7 +89,7 @@
                     </tr>
                 </tbody>
             </table>
-            <div id="upgrades" class="menuhidden" >
+            <div id="upgrades" class="menuhidden" > <!-- special upgrade section that start out hidden -->
                 <h2 title="Upgrades help you by giving you and your tools bonuses">Special Upgrades</h2>
                 <div class="upgrade" id="upgrade1">
                     <button title="Cost: 100 coins
@@ -102,6 +102,6 @@ Description: Increases your club power by 2x." class="upgrade2-button">U2</butto
             </div>
         </div>
     </section>
-<script src="Javascriptosa.js"></script>
+<script src="Javascriptosa.js"></script> <!-- linked my javascript here -->
 </body>
 </html>
