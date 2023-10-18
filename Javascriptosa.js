@@ -43,7 +43,7 @@ const upgrade2Button = document.getElementById('upgrade2');
 const darkmodebutton = document.getElementById('darkmodebutton');
 const lighmodebutton = document.getElementById('lighmodebutton');
 
-const apiUrl = 'http://worldtimeapi.org/api/timezone/Etc/GMT';
+const apiUrl = 'https://worldtimeapi.org/api/timezone/Etc/GMT';
 const gmtTimeElement = document.getElementById('gmtTime');
 
 fetchTime();
