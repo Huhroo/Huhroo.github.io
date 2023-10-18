@@ -141,7 +141,9 @@ päivittääksesi web-sivun sisältöä dynaamisesti."
 
 tämä kai on siinä ja siinä.
  -DOM manipulaatio on sivulla jatkuvaa ja hyödyntää etenkin getElementbyId:tä monessakin paikassa ja kuivaisin sitä dynaamiseksi (fetch API hakee esim kellon ajan puolen minuutin välein)
+ 
  -looppeja käytän vain "buyXTool()" funktiossa koska  muualla niille ei ollut tässä projektissa käyttöä
+ 
  -Ehtolausekkeita käytin monessa paikkaa esim updatecoinCount() if looppaa rahan läpi ja käsittelee sitä eri tavoin jos rahan määrä on tarpeeksi suurta
 
  itse sanoisin että juu 1pt
