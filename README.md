@@ -53,6 +53,9 @@ Sivuni on hyödyntää näitä (nav, section jne) mutta se kai on siinä ja siin
 
 hyvänä päivänä 1pt 
 
+
+
+
 CSS (25%)
 1/5:
 Basic CSS styling (colors, fonts).
@@ -89,6 +92,9 @@ Styling demonstrates a strong grasp of layout principles, aesthetics, and user e
 No tämän ymmärrän täysin jos haluaa antaa 0pt mutta mielestäni käyttäjä kokemus on hyvä ja aesteettisesti se on vanhan koulukunnan edustaja josta itse pidän
 
 en ehkä itse antaisi 1pt mutta ehkä kuitenkin se on sen arvoinen? Paha sanoa itse...
+
+
+
 
 JavaScript Basics (25%)
 1/5:
@@ -145,6 +151,9 @@ Consistent use of Object-Oriented JavaScript principles.
 tästä toteutuu osa (luokat ja oliot) mutta muuten ei
 
 0pt
+
+
+
 
 Asynchronous Operations (25%)
 1/5:
