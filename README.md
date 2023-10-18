@@ -1,6 +1,8 @@
 # Huhroo.github.io
 My clicker game website project
 
+link: https://huhroo.github.io/
+
 Troll clicker is an incremental clicker game where you can collect coins by clicking the troll and buying tools.
 You can get more information out of things by hovering different elements (sorry mobile users)
 this is an School project so don't expect breaking game desing
